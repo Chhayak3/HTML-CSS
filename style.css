@@ -1,0 +1,131 @@
+
+.uber-button{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding:10px 24px ;
+    border-radius: 2px;
+    border: chartreuse;
+    transition-duration: 0.4s;
+}
+.uber-button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.amazon-button{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    margin: 7px;
+    font-size: medium;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 160px ;
+    height: 40px;
+}
+.github-button{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    margin: 5px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+   
+    
+    width: 120px;
+    height: 35px ;
+    font-style: normal;
+    font-size: medium;
+
+}
+.bootstrap-button{
+background-color: blueviolet;
+color: white;
+size: 20px;
+height: 50px; 
+width: 100px;
+border: none;
+padding:15px;
+padding-top: 10px;
+font-size: small;
+font-style: normal;
+font-weight: bold;
+border-radius:8px;
+}
+
+.download-button{
+    background-color: white;
+    color:blueviolet;
+    border-color: blueviolet;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 1px;
+    size: 20px;
+    height: 40px;
+    width: 110px;
+    padding-top: 5px;
+    
+}
+
+.linkedin-button{
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    width: 280px;
+   cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+.save-button
+{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    font-weight: bold;
+    font-size:20px ;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 0.5px;
+}
+.a{
+    color:rgb(0, 113, 133);
+    font-size: 20px;
+}
+.title{
+   color: black; 
+   font-size: 45px;
+}
+.price{
+    color: rgb(0, 118, 0);
+    font-size: 35px;
+}
+.p{
+    color: black;
+}
+
+.add-to-cart-button{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.buy-now-button{
+    background-color: rgb(255,164,28);
+    color:black;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    width:110px;
+    height: 30px;
+}

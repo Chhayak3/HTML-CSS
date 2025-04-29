@@ -1,0 +1,175 @@
+.uber-button{
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px;
+    margin-right: 8px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.uber-button:hover{
+    opacity: 0.8;
+
+}
+
+.amazon-button{
+    background-color: #ffd814;;
+    color: black;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   padding-left: 35px;
+   padding-right: 35px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.amazon-button:hover{
+    background-color: rgb(245,205,3);
+}
+
+.github{
+    background-color: green;
+    color: white;
+   padding:12px;
+    font-weight: bold;
+    font-size: 13px;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: box-shadow 0.15s;
+}
+.github:hover{
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+}
+.bootstrap{
+    background-color: rgba(137, 43, 226, 0.733);
+    color: white;
+    padding:12px;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    border: none;
+    margin-right: 6px;
+}
+.bootstrap:hover{
+   background-color: chartreuse; 
+   color: chocolate;
+}
+.download{
+    background-color: darkgray;
+    color: white;
+    padding:12px;
+    border: none;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: background-color 0.15s;
+}
+.download:hover{
+    background-color: hotpink;
+    color: black;
+}
+
+.linked{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius:20px ;
+    font-size: medium;
+    font-weight: bold;
+    width:280px;
+    height: 30px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.linked:hover{
+    background-color: dodgerblue;
+    border-width: 0.5px;
+}
+.save{
+    background-color: red;
+    color: blue;
+    width: 80px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: solid;
+    margin-top: 5px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: blue;
+    transition: background-color o.15s, border-width 0.15s;
+}
+.save:hover{
+    background-color: white;
+    border-width: 0.5px;
+}
+
+.amazon{
+color: rgba(2, 140, 145, 0.589);
+}
+.amazon:hover{
+    color: cornflowerblue;
+}
+.title{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+.price{
+    color: green;
+    font-weight: bold;
+}
+
+.p{
+    font-size: small;
+}
+
+.btn-1{
+    background-color: #ffd814;;
+    color: black;
+    font-size: small;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+   
+    margin-right: 8px;
+}
+.btn-1:hover{
+background-color: rgb(153, 151, 51);
+ 
+}
+.btn-1:active{
+    opacity: 0.5;
+}
+
+.btn-2{
+    background-color: chocolate;
+    color: black;
+    font-size: small;
+    font-style: normal;
+    font-weight: normal;
+    border: none;
+    width: 80px;
+    height: 30px;
+   
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: coral;
+    
+}
+.btn-2:active{
+    opacity: 0.5;
+}
