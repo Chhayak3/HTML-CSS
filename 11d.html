@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 d Exercise</title>
+    <style>
+        .grid-profile{
+            
+             display: grid; 
+             padding-bottom: 18px;
+             margin-left: 15px;
+             margin-right: 15px;
+             grid-template-columns: 200px 200px 200px;
+             column-gap: 20px;
+        }
+        p{
+            font-family: arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+       
+         .name{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+             margin-left: 8px;
+        }
+            .mutual-friends-row {
+             display: grid;
+             grid-template-columns: 35px 1fr;
+             align-items: center;
+             margin-left: 8px;
+             margin-bottom: 10px;
+    }
+        .mutual-picture{
+           width: 28px;
+           height: 28px;
+           border-radius: 14px;
+           margin-top: 0;
+           display: inline-block;
+           vertical-align: middle;
+            margin-right: 4px;
+        }
+        .mutual{
+          display: inline-block;
+          vertical-align: middle  
+        }
+        .add-friend{
+           margin-top: 10px;
+           vertical-align: middle;
+           background-color: rgb(24, 119, 242);
+           border: none;
+           color: white;
+           padding-top: 8px;
+           padding-left: 12px;
+           padding-bottom: 8px;
+           padding-right: 12px;
+           border-radius: 4px;
+           margin-left: 8px;
+            margin-bottom: 10px;
+        }
+       
+        .one{
+            
+             box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) ;
+             width: 200px;
+             margin-right: 15px;
+             vertical-align: top;
+        }
+        .two{
+             box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) ;
+             width: 200px;
+             margin-right: 15px;
+             vertical-align: top;
+        }
+        .three{
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) ;
+              width: 200px;
+             margin-right: 15px;
+             vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-profile">
+        <div class="one">
+        <img src="images/cat.jpeg" class="profile-picture">
+        <p class="name">Oliver</p>
+        <div  class="mutual-friends-row">
+        <img src="images/image.png" class="mutual-picture">
+        <p class="mutual">2 mutual friends</p>
+        </div>
+        
+        <button class="add-friend">Add Friend</button>
+        
+        </div>
+        
+         <div class="two">
+        <img src="images/cat.jpeg" class="profile-picture">
+        <p class="name">Oliver</p>
+
+        <div  class="mutual-friends-row">
+          <img src="images/image.png" class="mutual-picture">
+          <p class="mutual">2 mutual friends</p>
+        </div>
+        
+        <button class="add-friend">Add Friend</button>
+        
+        </div>
+   
+        <div class="three">
+        <img src="images/cat.jpeg" class="profile-picture">
+        <p class="name">Oliver</p>
+        <div class="mutual-friends-row">
+        <img src="images/image.png" class="mutual-picture">
+        <p class="mutual">2 mutual friends</p>
+        </div>
+        
+        <button class="add-friend">Add Friend</button>
+       
+        </div>
+    </div>
+</body>
+</html>
